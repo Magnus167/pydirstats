@@ -3,7 +3,7 @@ from random import randint
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from pydiskstats.folders import get_path_df
+from pydirstats.folders import get_path_df
 
 
 def generate_test_files(test_folders):
