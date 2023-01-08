@@ -1,0 +1,4 @@
+multiprocessing
+pandas
+numpy
+greedypacker
