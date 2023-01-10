@@ -1,0 +1,72 @@
+E:/
+
+
+pathlib.Path(path).rglob took -- 2.450000000009389e-05 -- seconds
+pd.DataFrame took -- 4.8052054 -- seconds
+df['PATH'] took -- 0.7405461000000004 -- seconds
+df['NAME'] took -- 0.21429239999999972 -- seconds
+df['PARENT_PATH'] took -- 0.3018476999999997 -- seconds
+df['LEVEL'] took -- 0.2767556999999998 -- seconds
+df['IS_DIR'] took -- 22.128493900000002 -- seconds
+getting files sizes (parrallel) took -- 30.872178100000003 -- seconds
+getting folder sizes took -- 1.3452914000000007 -- seconds
+adding root folder and sizes col took -- 0.052706299999996986 -- seconds
+creating df took 28.4701973 seconds
+getting sizes took 32.2830781 seconds
+total program exectution time 60.7532754 seconds
+Total items: 294119
+Total folders: 5171
+Total files: 288948
+Dir levels: 17
+Total size (MB): 1347954833.6373549
+Total size (GB): 1316362.1422239793
+
+
+E: parralel
+pathlib.Path(path).rglob took -- 2.3399999999895726e-05 -- seconds
+pd.DataFrame took -- 4.4455888 -- seconds
+df['PATH'] took -- 0.6967379999999999 -- seconds
+df['NAME'] took -- 0.21053940000000004 -- seconds
+df['PARENT_PATH'] took -- 0.2931792 -- seconds
+df['LEVEL'] took -- 0.2739849999999997 -- seconds
+df['IS_DIR'] 'parralel' took -- 28.4207167 -- seconds
+getting files sizes (parrallel) took -- 23.7298391 -- seconds
+getting folder sizes took -- 1.500961199999999 -- seconds
+adding root folder and sizes col took -- 0.04498999999999853 -- seconds
+creating df took 34.3446181 seconds
+getting sizes took 25.287810300000004 seconds
+total program exectution time 59.6324284 seconds
+Total items: 294119
+Total folders: 5171
+Total files: 288948
+Dir levels: 17
+Total size (MB): 1347954835.51859
+Total size (GB): 1316362.144061123
+
+
+
+---
+D:/
+
+pathlib.Path(path).rglob took -- 2.6999999999999247e-05 -- seconds
+pd.DataFrame took -- 9.2290678 -- seconds
+df['PATH'] took -- 1.0648216999999995 -- seconds
+df['NAME'] took -- 0.3368172999999999 -- seconds
+df['PARENT_PATH'] took -- 0.4312426000000009 -- seconds
+df['LEVEL'] took -- 0.40035229999999977 -- seconds
+df['IS_DIR'] took -- 29.500399300000005 -- seconds
+getting files sizes (parrallel) took -- 33.852364699999995 -- seconds
+getting folder sizes took -- 2.9813898999999964 -- seconds
+adding root folder and sizes col took -- 0.061283599999995886 -- seconds
+creating df took 40.9661664 seconds
+getting sizes took 36.910779899999994 seconds
+total program exectution time 77.8769463 seconds
+Total items: 394297
+Total folders: 30092
+Total files: 364205
+Dir levels: 20
+Total size (MB): 6368773924.293954
+Total size (GB): 6219505.785443314
+
+
+D:/
