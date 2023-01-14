@@ -1,4 +1,5 @@
-multiprocessing
 pandas
 numpy
 greedypacker
+polars
+polars[all]
